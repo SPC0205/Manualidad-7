@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corazoncitos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onclick="PlayAudio()">
+    <audio id="musica">
+        <source src="Sound.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container">
+        <div class="d-flex">
+            <svg></svg>
+        </div>
+        <div class="text-container">
+            <p>"</p>
+            <p>Yo</p>
+            <p>Te</p>
+            <p>Quiero</p>
+            <p>Mas</p>
+            <p>DE</p>
+            <p>Lo</p>
+            <p>Que</p>
+            <p>Imaginas</p>
+            <p>"</p>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function PlayAudio() {
+            document.getElementById("musica").play();
+        }
+    </script>
+</body>
+</html>
